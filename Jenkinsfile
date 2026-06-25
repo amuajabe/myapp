@@ -8,3 +8,9 @@ pipeline {
         }
     }
 }
+
+
+package.json
+server.js
+.gitignore
+test/server.test.js
