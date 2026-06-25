@@ -18,8 +18,3 @@ app.listen(config.port || 3000, () => {
 console.log(`Server running on port ${config.port || 3000}`);
 });
 module.exports = app;
-const test = require('node:test');
-const assert = require('node:assert');
-test('sanity check — basic arithmetic', () => {
-assert.strictEqual(1 + 1, 2);
-});
