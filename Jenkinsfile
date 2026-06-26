@@ -11,10 +11,10 @@ pipeline {
     stages {
 
         stage('Checkout Code') {
-            steps {
-                git branch: 'main', url: 'https://github.com/your-org/myapp.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/amuajabe/myapp.git'
+    }
+}
 
         stage('Install Dependencies') {
             steps {
